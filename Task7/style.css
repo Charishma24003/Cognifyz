@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 4rem auto;
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 20px;
+}
+
+/* Weather Backgrounds */
+.clear-bg {
+  background-image: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7d?auto=format&fit=crop&w=1470&q=80');
+}
+
+.cloudy-bg {
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1470&q=80');
+}
+
+.rainy-bg {
+  background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1470&q=80');
+}
+
+.snowy-bg {
+  background-image: url('https://images.unsplash.com/photo-1608889175613-12d7c3180713?auto=format&fit=crop&w=1470&q=80');
+}
+
+.default-bg {
+  background-image: url('https://images.unsplash.com/photo-1510130387422-82bed34b37e7?auto=format&fit=crop&w=1470&q=80');
+}
